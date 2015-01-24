@@ -19,7 +19,8 @@ function withRefs(Component) {
 
       if (!els) return;
       if (_.isFunction(prop)) return prop(els);
-      return _.pick(els, prop);
+      if (_.isArray(prop)) return _.pick(els, prop);
+      return els[prop];
     }
   }
 
