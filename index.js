@@ -36,8 +36,6 @@ function scrub(spec) {
 
 scrub.el = deku.dom
 scrub.dom = dom
-
-var use = deku.component().use;
 scrub.is = function (any) {
-  return (any && any.use === use);
+  return _.isFunction(any) && _.isFunction(any.render);
 }
