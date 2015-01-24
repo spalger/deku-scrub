@@ -22,6 +22,8 @@
   "peerDependencies": {
     "deku": "0.0.15"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "~2.4.1"
   }
 }
