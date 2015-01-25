@@ -1,6 +1,6 @@
 {
   "name": "deku-scrub",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "deku extensions for increased awesome",
   "main": "index.js",
   "scripts": {
