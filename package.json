@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/spenceralger/deku-scrub",
   "peerDependencies": {
-    "deku": "^0.0.16"
+    "deku": "^0.0"
   },
   "devDependencies": {
     "lodash": "~2.4.1"
